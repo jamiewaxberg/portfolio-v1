@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'sofia_pro_lightregular';
+    src: url('SofiaProLight-webfont.eot');
+    src: url('SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProLight-webfont.woff') format('woff'),
+         url('SofiaProLight-webfont.ttf') format('truetype'),
+         url('SofiaProLight-webfont.svg#sofia_pro_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body { padding-top:10px; padding-left:10px; padding-bottom:15px; }
+
+div#wrapper {width:1100px; margin-left:auto; margin-right:auto;}
+
+div { font-family: 'sofia_pro_lightregular', Arial, sans-serif; font-size: 14px; }
+
+div#nav {float: left; margin-top: 25px; padding-top: 15px;  width: 200px; height: 645px; }
+
+div#nav img {padding-bottom: 50px; }
+h1 {font-size:0;}
+
+div#nav a {display: block; padding-bottom: 20px; }
+
+div#nav a.active a:hover {color:#008E7F; text-decoration:none; }
+div#nav a:link { color:black; text-decoration: none; }
+div#nav a:visited { color:black; text-decoration: none; }
+div#nav a:active { color:#008E7F; text-decoration:none; }
+div#nav a:hover { color:#008E7F; text-decoration: none; }
+
+
+a.navlink {padding-top: 5px;
+	padding-left:50px; }
+	
+div#content {float:left; position:absolute; margin-left:225px; padding-left:35px; padding-top:5px; max-width:900px; max-height:735px; border-left-style:solid; border-left-width: thin; border-left-color:#008E7F; z-index:-5; }	
+div.about {float:left; position:absolute; margin-left:225px; padding-left:35px; max-width:900px; height:635px;  border-left-style:solid; border-left-width: thin; border-left-color:#008E7F; }
+div#content h2 {font-size: 24px; font-weight:normal;}
+div#contentsection h2 {font-size: 24px; font-weight:normal; padding-top:6px;}
+h2.about {padding-top: 91px; margin-bottom: 10px; line-height:30px; }
+div#content p {max-width: 700px; margin-top: 75px; margin-bottom: 75px; }
+div#content img.design { display:inline; }
+div#content img.photography { display:inline;  }
+div#content img.video { display:inline; }
+div#content img {
+	margin-right: 15px;
+	margin-bottom: 10px;
+ 	border-radius:50%;	
+	z-index:-5;
+	
+}
+
+
+div#contentsection img {position:relative; z-index:-5; }
+ 
+div#contentsection img:hover {opacity:.5; transition: opacity .35s ease-out; -webkit-transition: opacity .35s ease-out;  }
+a.about:hover {opacity:.4;}
+
+
+
+
+
+div.myhover {width:150px; height:150px; margin-right: 15px; margin-bottom: 10px; position:relative; background-image:url(arrow.png) display:none ;  z-index:5000; display:inline-block; border-radius:50%;  }
+
+div.myhover:hover {position:relative; background-image:url(arrow.png); animation:hover-ani 5s; z-index:5000; border-radius:50%; }
+
+
+p#footer { margin-top: 50px !important; }
